@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEECF7FA2DB2FDAB00B27953 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = CEECF7F92DB2FDAB00B27953 /* DGCharts */; };
+		CEECF7FF2DB304B600B27953 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CEECF7FE2DB304B600B27953 /* FirebaseAuth */; };
+		CEECF8012DB304B600B27953 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = CEECF8002DB304B600B27953 /* FirebaseCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEECF7C42DB2F1EA00B27953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEECF7A62DB2F1E900B27953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEECF7AD2DB2F1E900B27953;
+			remoteInfo = Assignment4_NutriTrack;
+		};
+		CEECF7CE2DB2F1EA00B27953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEECF7A62DB2F1E900B27953 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEECF7AD2DB2F1E900B27953;
+			remoteInfo = Assignment4_NutriTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEECF7AE2DB2F1E900B27953 /* Assignment4_NutriTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment4_NutriTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEECF7C32DB2F1EA00B27953 /* Assignment4_NutriTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment4_NutriTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEECF7CD2DB2F1EA00B27953 /* Assignment4_NutriTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment4_NutriTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CEECF7B02DB2F1E900B27953 /* Assignment4_NutriTrack */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assignment4_NutriTrack;
+			sourceTree = "<group>";
+		};
+		CEECF7C62DB2F1EA00B27953 /* Assignment4_NutriTrackTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assignment4_NutriTrackTests;
+			sourceTree = "<group>";
+		};
+		CEECF7D02DB2F1EA00B27953 /* Assignment4_NutriTrackUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Assignment4_NutriTrackUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEECF7AB2DB2F1E900B27953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEECF7FA2DB2FDAB00B27953 /* DGCharts in Frameworks */,
+				CEECF8012DB304B600B27953 /* FirebaseCore in Frameworks */,
+				CEECF7FF2DB304B600B27953 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7C02DB2F1EA00B27953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7CA2DB2F1EA00B27953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEECF7A52DB2F1E900B27953 = {
+			isa = PBXGroup;
+			children = (
+				CEECF7B02DB2F1E900B27953 /* Assignment4_NutriTrack */,
+				CEECF7C62DB2F1EA00B27953 /* Assignment4_NutriTrackTests */,
+				CEECF7D02DB2F1EA00B27953 /* Assignment4_NutriTrackUITests */,
+				CEECF7AF2DB2F1E900B27953 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEECF7AF2DB2F1E900B27953 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEECF7AE2DB2F1E900B27953 /* Assignment4_NutriTrack.app */,
+				CEECF7C32DB2F1EA00B27953 /* Assignment4_NutriTrackTests.xctest */,
+				CEECF7CD2DB2F1EA00B27953 /* Assignment4_NutriTrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEECF7AD2DB2F1E900B27953 /* Assignment4_NutriTrack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEECF7D72DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrack" */;
+			buildPhases = (
+				CEECF7AA2DB2F1E900B27953 /* Sources */,
+				CEECF7AB2DB2F1E900B27953 /* Frameworks */,
+				CEECF7AC2DB2F1E900B27953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CEECF7B02DB2F1E900B27953 /* Assignment4_NutriTrack */,
+			);
+			name = Assignment4_NutriTrack;
+			packageProductDependencies = (
+				CEECF7F92DB2FDAB00B27953 /* DGCharts */,
+				CEECF7FE2DB304B600B27953 /* FirebaseAuth */,
+				CEECF8002DB304B600B27953 /* FirebaseCore */,
+			);
+			productName = Assignment4_NutriTrack;
+			productReference = CEECF7AE2DB2F1E900B27953 /* Assignment4_NutriTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEECF7C22DB2F1EA00B27953 /* Assignment4_NutriTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEECF7DA2DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrackTests" */;
+			buildPhases = (
+				CEECF7BF2DB2F1EA00B27953 /* Sources */,
+				CEECF7C02DB2F1EA00B27953 /* Frameworks */,
+				CEECF7C12DB2F1EA00B27953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEECF7C52DB2F1EA00B27953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEECF7C62DB2F1EA00B27953 /* Assignment4_NutriTrackTests */,
+			);
+			name = Assignment4_NutriTrackTests;
+			packageProductDependencies = (
+			);
+			productName = Assignment4_NutriTrackTests;
+			productReference = CEECF7C32DB2F1EA00B27953 /* Assignment4_NutriTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEECF7CC2DB2F1EA00B27953 /* Assignment4_NutriTrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEECF7DD2DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrackUITests" */;
+			buildPhases = (
+				CEECF7C92DB2F1EA00B27953 /* Sources */,
+				CEECF7CA2DB2F1EA00B27953 /* Frameworks */,
+				CEECF7CB2DB2F1EA00B27953 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEECF7CF2DB2F1EA00B27953 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CEECF7D02DB2F1EA00B27953 /* Assignment4_NutriTrackUITests */,
+			);
+			name = Assignment4_NutriTrackUITests;
+			packageProductDependencies = (
+			);
+			productName = Assignment4_NutriTrackUITests;
+			productReference = CEECF7CD2DB2F1EA00B27953 /* Assignment4_NutriTrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEECF7A62DB2F1E900B27953 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CEECF7AD2DB2F1E900B27953 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CEECF7C22DB2F1EA00B27953 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEECF7AD2DB2F1E900B27953;
+					};
+					CEECF7CC2DB2F1EA00B27953 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CEECF7AD2DB2F1E900B27953;
+					};
+				};
+			};
+			buildConfigurationList = CEECF7A92DB2F1E900B27953 /* Build configuration list for PBXProject "Assignment4_NutriTrack" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEECF7A52DB2F1E900B27953;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CEECF7F82DB2FDAB00B27953 /* XCRemoteSwiftPackageReference "Charts" */,
+				CEECF7FD2DB304B600B27953 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CEECF7AF2DB2F1E900B27953 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEECF7AD2DB2F1E900B27953 /* Assignment4_NutriTrack */,
+				CEECF7C22DB2F1EA00B27953 /* Assignment4_NutriTrackTests */,
+				CEECF7CC2DB2F1EA00B27953 /* Assignment4_NutriTrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEECF7AC2DB2F1E900B27953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7C12DB2F1EA00B27953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7CB2DB2F1EA00B27953 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEECF7AA2DB2F1E900B27953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7BF2DB2F1EA00B27953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEECF7C92DB2F1EA00B27953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEECF7C52DB2F1EA00B27953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEECF7AD2DB2F1E900B27953 /* Assignment4_NutriTrack */;
+			targetProxy = CEECF7C42DB2F1EA00B27953 /* PBXContainerItemProxy */;
+		};
+		CEECF7CF2DB2F1EA00B27953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEECF7AD2DB2F1E900B27953 /* Assignment4_NutriTrack */;
+			targetProxy = CEECF7CE2DB2F1EA00B27953 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEECF7D52DB2F1EA00B27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEECF7D62DB2F1EA00B27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEECF7D82DB2F1EA00B27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment4_NutriTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEECF7D92DB2F1EA00B27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment4_NutriTrack/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEECF7DB2DB2F1EA00B27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment4_NutriTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment4_NutriTrack";
+			};
+			name = Debug;
+		};
+		CEECF7DC2DB2F1EA00B27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment4_NutriTrack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment4_NutriTrack";
+			};
+			name = Release;
+		};
+		CEECF7DE2DB2F1EA00B27953 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assignment4_NutriTrack;
+			};
+			name = Debug;
+		};
+		CEECF7DF2DB2F1EA00B27953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mine.Assignment4-NutriTrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Assignment4_NutriTrack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEECF7A92DB2F1E900B27953 /* Build configuration list for PBXProject "Assignment4_NutriTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEECF7D52DB2F1EA00B27953 /* Debug */,
+				CEECF7D62DB2F1EA00B27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEECF7D72DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEECF7D82DB2F1EA00B27953 /* Debug */,
+				CEECF7D92DB2F1EA00B27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEECF7DA2DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEECF7DB2DB2F1EA00B27953 /* Debug */,
+				CEECF7DC2DB2F1EA00B27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEECF7DD2DB2F1EA00B27953 /* Build configuration list for PBXNativeTarget "Assignment4_NutriTrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEECF7DE2DB2F1EA00B27953 /* Debug */,
+				CEECF7DF2DB2F1EA00B27953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEECF7F82DB2FDAB00B27953 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		CEECF7FD2DB304B600B27953 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEECF7F92DB2FDAB00B27953 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEECF7F82DB2FDAB00B27953 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		CEECF7FE2DB304B600B27953 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEECF7FD2DB304B600B27953 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CEECF8002DB304B600B27953 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEECF7FD2DB304B600B27953 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CEECF7A62DB2F1E900B27953 /* Project object */;
+}
